@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/pilots/static/css/main.a9f4db2b.css",
+    "main.js": "/pilots/static/js/main.9d4b9b9b.js",
+    "static/media/OpenSans-Regular.ttf": "/pilots/static/media/OpenSans-Regular.9c7806d7ef7d294f568e.ttf",
+    "static/media/AlegreyaSansSC-Regular.ttf": "/pilots/static/media/AlegreyaSansSC-Regular.d215c944a70a1f2ba744.ttf",
+    "static/media/background.jpeg": "/pilots/static/media/background.316fee6b027fba9bfe4f.jpeg",
+    "static/media/proximanova_regular.ttf": "/pilots/static/media/proximanova_regular.8181ca4b7c2d1189d78a.ttf",
+    "static/media/OpenSans-Bold.ttf": "/pilots/static/media/OpenSans-Bold.b0cde4594957745358be.ttf",
+    "static/media/ofont.ru_Open-Semi-Bold.ttf": "/pilots/static/media/ofont.ru_Open-Semi-Bold.9b31534d5742fb1c883d.ttf",
+    "static/media/spinner.svg": "/pilots/static/media/spinner.7743decbb0b10beaeb14d45f19091067.svg",
+    "index.html": "/pilots/index.html",
+    "main.a9f4db2b.css.map": "/pilots/static/css/main.a9f4db2b.css.map",
+    "main.9d4b9b9b.js.map": "/pilots/static/js/main.9d4b9b9b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a9f4db2b.css",
+    "static/js/main.9d4b9b9b.js"
+  ]
+}
