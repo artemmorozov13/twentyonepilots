@@ -1,0 +1,51 @@
+.purchase {
+    margin-top: 30px;
+    margin-bottom: 48px;
+}
+.purchase__header {
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'AlegreyaSansSC';
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 40px;
+}
+.purchase__employed::after {
+    content: '/';
+}
+.purchase__avalable {
+    color: #E5E5E5;
+}
+.purchase__persons {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width:1032px) {
+    .purchase__persons{
+        gap: 32px;
+    }
+}
+@media screen and (max-width:556px) {
+    h2 {
+        font-size: 32px !important;
+    }
+}
+@media screen and (max-width:420px) {
+    .purchase__employed {
+        font-size: 24px;
+    }
+    .purchase__employed::after {
+        font-size: 20px;
+    }
+    .purchase__avalable {
+        font-size: 24px;
+    }
+}
+@media screen and (max-width:360px) {
+    h2 {
+        font-size: 28px !important;
+    }
+}

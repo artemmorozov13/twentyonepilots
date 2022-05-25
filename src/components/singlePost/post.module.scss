@@ -1,0 +1,15 @@
+.post {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    & > h1 {
+        font-size: 32px;
+        font-family: 'OpenSans-Semi-Bold';
+        text-transform: capitalize;
+    }
+    & > p {
+        font-size: 18px;
+        font-family: 'OpenSans-Regular';
+    }
+}

@@ -1,0 +1,34 @@
+.comment {
+    max-width: 100%;
+    padding: 12px 24px;
+    border: 1px solid rgba(0,0,0,1);
+    & > .comment__header {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 20px;
+        & > h3 {
+            font-size: 20px;
+            font-family: 'Proxima';
+        }
+        & > .comment__email {
+            font-size: 12px;
+            font-family: 'OpenSans-Semi-Bold';
+            color: #888;
+        }
+    }
+    & > p {
+        font-family: 'OpenSans-Regular';
+    }
+}
+
+@media screen and (max-width:556px) {
+    h2 {
+        font-size: 32px !important;
+    }
+}
+@media screen and (max-width:360px) {
+    h2 {
+        font-size: 28px !important;
+    }
+}
