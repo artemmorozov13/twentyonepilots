@@ -1,8 +1,8 @@
-import { FC } from 'react';
-import {ReactComponent as SVG} from './spinner.svg';
+import { FC } from "react";
+import { ReactComponent as SVG } from "./spinner.svg";
 
 const Spinner: FC = () => {
-    return <SVG />
-}
+  return <SVG />;
+};
 
-export default Spinner
+export default Spinner;

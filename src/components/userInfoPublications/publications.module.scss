@@ -1,55 +1,55 @@
 .publications {
-    padding-top: 8px;
-    padding-bottom: 40px;
-    padding-right: 52px;
-    padding-left: 52px;
-    border: none !important;
+  padding-top: 8px;
+  padding-bottom: 40px;
+  padding-right: 52px;
+  padding-left: 52px;
+  border: none !important;
 }
 .publications > h2 {
-    margin-bottom: 20px;
-    font-family: 'AlegreyaSansSC';
-    font-weight: 600;
-    font-size: 35px;
-    line-height: 40px;
+  margin-bottom: 20px;
+  font-family: "AlegreyaSansSC";
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 40px;
 }
 .publications__content {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 13px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 13px;
 }
 .publication {
-    display: block;
-    width: 154px;
-    height: 154px;
-    border: 1px solid rgba(0, 0, 0, 1);
+  display: block;
+  width: 154px;
+  height: 154px;
+  border: 1px solid rgba(0, 0, 0, 1);
 }
 
 .publication:nth-child(1) {
-    background-color: rgba(99, 180, 238, 1);
+  background-color: rgba(99, 180, 238, 1);
 }
 .publication:nth-child(2) {
-    background-color: rgba(43, 159, 242, 1);
+  background-color: rgba(43, 159, 242, 1);
 }
 .publication:nth-child(3) {
-    background-color: rgba(84, 127, 237, 1);
+  background-color: rgba(84, 127, 237, 1);
 }
 .publication:nth-child(4) {
-    background-color: rgba(67, 102, 225, 1);
+  background-color: rgba(67, 102, 225, 1);
 }
 .publication:nth-child(5) {
-    background-color: rgba(32, 64, 176, 1);
+  background-color: rgba(32, 64, 176, 1);
 }
 .publication:nth-child(6) {
-    background-color: rgba(12, 37, 124, 1);
+  background-color: rgba(12, 37, 124, 1);
 }
 
 @media screen and (max-width: 430px) {
-    .publications {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .publications__content {
-        justify-content: center;
-    }
+  .publications {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .publications__content {
+    justify-content: center;
+  }
 }

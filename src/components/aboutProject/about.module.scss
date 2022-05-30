@@ -1,52 +1,52 @@
 .about {
-    flex-basis: 40%;
+  flex-basis: 40%;
 }
 .about > h2 {
-    margin-bottom: 16px;
-    font-family: 'AlegreyaSansSC';
-    font-weight: 500;
-    font-size: 35px;
-    line-height: 40px;
+  margin-bottom: 16px;
+  font-family: "AlegreyaSansSC";
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 40px;
 }
 .about__details {
-    display: flex;
-    gap: 43px;
+  display: flex;
+  gap: 43px;
 }
 .about__decoration {
-    position: relative;
-    width: 1px;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(147, 147, 147, 1);
+  position: relative;
+  width: 1px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(147, 147, 147, 1);
 }
 .about__decoration::before {
-    position: absolute;
-    content: '';
-    display: block;
-    width: 5px;
-    height: 45px;
-    background-color: rgba(13, 30, 75, 1);
+  position: absolute;
+  content: "";
+  display: block;
+  width: 5px;
+  height: 45px;
+  background-color: rgba(13, 30, 75, 1);
 }
 .about__info_bold {
-    margin-bottom: 17px;
-    font-family: 'OpenSans-Bold';
-    font-size: 15px;
-    font-weight: 700;
-    line-height: 20px;
+  margin-bottom: 17px;
+  font-family: "OpenSans-Bold";
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 20px;
 }
 .about__info_secondary {
-    padding-right: 25px;
-    font-family: 'OpenSans-Semi-Bold';
-    font-size: 14px;
-    line-height: 24px;
-    font-weight: 600    ;
-    color: rgba(147, 147, 147, 1);
+  padding-right: 25px;
+  font-family: "OpenSans-Semi-Bold";
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 600;
+  color: rgba(147, 147, 147, 1);
 }
 
 @media screen and (max-width: 845px) {
-    .about > h2 {
-        margin-bottom: 20px;
-    }
+  .about > h2 {
+    margin-bottom: 20px;
+  }
 }

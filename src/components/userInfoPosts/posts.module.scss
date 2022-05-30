@@ -1,39 +1,39 @@
 td {
-    border: 1px solid rgba(0,0,0,1) !important;
+  border: 1px solid rgba(0, 0, 0, 1) !important;
 }
 .content {
-    display: block;
-    padding: 18px 52px 46px 61px;
-    max-width: 1000px;
-    margin: 0 auto;
+  display: block;
+  padding: 18px 52px 46px 61px;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 .content__title {
-    display: block;
-    margin-bottom: 14px;
-    font-family: 'AlegreyaSansSC';
-    font-weight: 600;
-    font-size: 35px;
-    line-height: 40px;
+  display: block;
+  margin-bottom: 14px;
+  font-family: "AlegreyaSansSC";
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 40px;
 }
 .content__posts {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
 }
-.content__show{
-    display: block;
-    margin-top: 30px;
-    font-family: 'AlegreyaSansSC';
-    font-weight: 600;
-    text-decoration: underline;
-    cursor: pointer;
+.content__show {
+  display: block;
+  margin-top: 30px;
+  font-family: "AlegreyaSansSC";
+  font-weight: 600;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 430px) {
-    .content {
-        padding: 18px 20px 46px 20px;
-    }
-    .content__title {
-        text-align: center;
-    }
+  .content {
+    padding: 18px 20px 46px 20px;
+  }
+  .content__title {
+    text-align: center;
+  }
 }

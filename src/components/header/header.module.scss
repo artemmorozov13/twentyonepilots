@@ -1,72 +1,72 @@
-header{
-    height: 70px;
-    background-color: rgba(16, 16, 16, 1);
+header {
+  height: 70px;
+  background-color: rgba(16, 16, 16, 1);
 }
-header > div{
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+header > div {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .header__logo {
-    align-self: end;
+  align-self: end;
 }
-.header__logo > a{
-    text-decoration: none;
-    text-transform: uppercase;
-    font-family: 'AlegreyaSansSC';
-    font-weight: 700;
-    font-size: 28px;
-    line-height: 60px;
-    color: white;
+.header__logo > a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "AlegreyaSansSC";
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 60px;
+  color: white;
 }
 .header__navigation {
-    display: flex;
-    gap: 12px;
+  display: flex;
+  gap: 12px;
 }
 .header__button {
-    padding: 10px 20px;
-    background-color: rgba(255, 255, 255, 1);
-    text-decoration: none;
-    text-align: center;
-    font-family: 'Proxima';
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 17px;
-    color: rgba(0, 0, 0, 1);
+  padding: 10px 20px;
+  background-color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  text-align: center;
+  font-family: "Proxima";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  color: rgba(0, 0, 0, 1);
 }
-.header__button_large{
-    width: 216px;
+.header__button_large {
+  width: 216px;
 }
-.header__button_small{
-    width: 166px;
+.header__button_small {
+  width: 166px;
 }
 
 @media screen and (max-width: 845px) {
-    .header__logo > a {
-        font-size: 24px;
-    }
-    .header__button {
-        width: auto;
-    }
+  .header__logo > a {
+    font-size: 24px;
+  }
+  .header__button {
+    width: auto;
+  }
 }
-@media screen and (max-width:556px) {
-    header {
-        height: 110px;
-    }
-    .header__navigation {
-        flex-direction: column;
-    }
-    .header__logo{
-        align-self: center;
-    }
+@media screen and (max-width: 556px) {
+  header {
+    height: 110px;
+  }
+  .header__navigation {
+    flex-direction: column;
+  }
+  .header__logo {
+    align-self: center;
+  }
 }
-@media screen and (max-width:420px) {
-    header {
-        height: 120px;
-    }
-    .header__button {
-        width: 100px;
-        white-space: break-spaces;
-    }
+@media screen and (max-width: 420px) {
+  header {
+    height: 120px;
+  }
+  .header__button {
+    width: 100px;
+    white-space: break-spaces;
+  }
 }

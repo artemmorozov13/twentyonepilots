@@ -4,12 +4,11 @@ import Home from "pages/Home";
 import User from "pages/User";
 import Post from "pages/Post";
 
-import routes from "urlRoutesConfig.json"
+import routes from "urlRoutesConfig.json";
 import { BrowserRouter, Navigate, Routes, Route } from "react-router-dom";
 
-import "./reset.scss"
-import "./fonts.scss"
-
+import "./reset.scss";
+import "./fonts.scss";
 
 const App: FC = () => {
   return (
@@ -21,8 +20,7 @@ const App: FC = () => {
         <Route path="*" element={<Navigate replace to="/404" />} />
       </Routes>
     </BrowserRouter>
-      
   );
-}
+};
 
 export default App;

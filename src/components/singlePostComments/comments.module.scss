@@ -1,16 +1,16 @@
 .comments {
-    margin-top: 40px;
-    & > h2 {
-        margin-bottom: 16px;
-        font-family: 'AlegreyaSansSC';
-        font-weight: 500;
-        font-size: 35px;
-        line-height: 40px;
-    }
-    & > .comments__wrapper {
-        margin-bottom: 40px;
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-    }
+  margin-top: 40px;
+  & > h2 {
+    margin-bottom: 16px;
+    font-family: "AlegreyaSansSC";
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 40px;
+  }
+  & > .comments__wrapper {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
 }

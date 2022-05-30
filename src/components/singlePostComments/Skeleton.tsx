@@ -1,21 +1,21 @@
-import { FC } from "react"
-import classes from "./skeleton.module.scss"
+import { FC } from "react";
+import classes from "./skeleton.module.scss";
 
 const Skeleton: FC<{ skeletonElements: number }> = ({ skeletonElements }) => {
-    let skeletons = []
+  let skeletons = [];
 
-    for ( let i = 0; i < skeletonElements; i++ ) {
-        skeletons.push(
-        <div key={i} className={classes.comment}>
-            <div className={classes.comment__header}>
-                <h3></h3>
-                <span className={classes.comment__email}></span>
-            </div>
-            <p></p>
+  for (let i = 0; i < skeletonElements; i++) {
+    skeletons.push(
+      <div key={i} className={classes.comment}>
+        <div className={classes.comment__header}>
+          <h3></h3>
+          <span className={classes.comment__email}></span>
         </div>
-        )
-    }
-    return <>{ skeletons }</>
-}
+        <p></p>
+      </div>
+    );
+  }
+  return <>{skeletons}</>;
+};
 
-export default Skeleton
+export default Skeleton;
